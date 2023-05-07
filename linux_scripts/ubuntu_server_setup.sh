@@ -79,3 +79,12 @@ else
 fi
 
 docker compose version
+
+echo "
+###################################
+Step 6: Install secondary pkgs
+###################################
+"
+
+sudo apt-get install fzf -y
+
