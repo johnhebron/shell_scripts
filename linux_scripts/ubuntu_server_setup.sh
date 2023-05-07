@@ -88,3 +88,5 @@ Step 6: Install secondary pkgs
 
 sudo apt-get install fzf -y
 
+echo "source /usr/share/doc/fzf/examples/key-bindings.bash" > ~/.bashrc
+
