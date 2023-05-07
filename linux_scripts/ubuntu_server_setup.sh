@@ -20,7 +20,7 @@ echo "
 Step 2: Add gpg Key
 ###################################
 "
-if [ -e /usr/share/keyrings/docker-archive-keyring.gpg]
+if [ -e /usr/share/keyrings/docker-archive-keyring.gpg ]
 then
 	echo "GPG Key previously added. Skipping."
 else
